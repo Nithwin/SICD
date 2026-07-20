@@ -83,7 +83,18 @@ export default function Sidebar() {
             {theme === "dark" ? "Light Mode" : "Dark Mode"}
           </button>
         )}
-        <div className="text-center">CA-YOLOv8 + InsightFace</div>
+        <div className="flex items-center justify-center gap-4 mt-2">
+          <a href="https://ieeexplore.ieee.org/document/11502277/" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors" title="IEEE Publication">
+            IEEE
+          </a>
+          <a href="https://github.com/Nithwin" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors" title="GitHub">
+            GitHub
+          </a>
+          <a href="https://nithwin.site" target="_blank" rel="noopener noreferrer" className="hover:text-blue-500 transition-colors" title="Portfolio">
+            Portfolio
+          </a>
+        </div>
+        <div className="text-center mt-2">CA-YOLOv8 + InsightFace</div>
       </div>
     </div>
   );
