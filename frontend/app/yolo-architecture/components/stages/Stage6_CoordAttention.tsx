@@ -30,7 +30,7 @@ export function Stage6_CoordAttention({ scenario }: Props) {
         <div className="absolute inset-0 opacity-15 bg-[linear-gradient(rgba(236,72,153,0.06)_1px,transparent_1px),linear-gradient(90deg,rgba(236,72,153,0.06)_1px,transparent_1px)] bg-[size:40px_40px]" />
 
         <CoordPathLines />
-        <CoordStaticNodes scenario={scenario} />
+        <CoordStaticNodes />
         <CoordLiveTensors scenario={scenario} />
 
       </div>
